@@ -8,6 +8,8 @@ The Workout App is a fitness-focused Android application developed using Kotlin 
 
 Categorized Workouts: Includes Yoga, Chest, Back, Arms, Cardio, Legs, Fat Burning, and Strength.
 
+User could view exercise details and different exercises in different exercise category. They could also add specific exercises into their favorite page. After that they could remove or undo the favorite exercise if they want to.
+
 Detailed Exercise Descriptions: Provides step-by-step instructions for each exercise.
 
 High-Quality Exercise Images: Helps users visualize the correct posture and form.
