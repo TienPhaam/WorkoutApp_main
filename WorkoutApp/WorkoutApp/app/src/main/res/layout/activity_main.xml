@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- Image Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/intro_pic" />
+    </LinearLayout>
+
+    <!-- Title Text -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PUSH YOURSELF\nTO THE LIMIT"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp" />
+
+    <!-- Description -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We are committed to providing a safe and supportive environment for all users. We help everyone to have a better health conditions and shapes."
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:paddingHorizontal="32dp"
+        android:paddingBottom="24dp" />
+
+    <!-- "Let's Go" Button -->
+    <Button
+        android:id="@+id/buttonLetsGo"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Let's Go!"
+        android:backgroundTint="#FF5722"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:layout_marginBottom="20dp"/>
+
+</LinearLayout>
